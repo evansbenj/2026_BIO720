@@ -1,5 +1,5 @@
-# BIO722
-This is the BJE portion of the BIO722 graduate course in Advanced Bioinformatics in 2024.  Perhaps overly optimistically, this section will be squeezed into one 2-hour interactive lecture where the class will explore genomic data, including:
+# BIO720
+This is the BJE portion of the BIO720 graduate course: Introduction to Bioinformatics in 2026.  Perhaps overly optimistically, this section will be squeezed into one 2-hour interactive lecture where the class will explore genomic data, including:
 * trimming fastq files
 * preparing a reference genome
 * mapping data to a reference genome
