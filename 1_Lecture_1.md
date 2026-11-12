@@ -18,7 +18,7 @@ I've recently had ddRADseq libraries made at [Ibis]([http://www.floragenex.com/]
 
 This website is written in a markup language called [Markdown](https://en.wikipedia.org/wiki/Markdown) and hosted by [Github](www.github.com).  I've found both of these tools to be easy to learn and very useful.
 
-Let's quickly open this example in a [new window](https://github.com/evansbenj/2024_BIO722/blob/master/0_example_markdown.md). 
+Let's quickly open this example in a [new window](https://github.com/evansbenj/2026_BIO720/blob/master/0_example_markdown.md). 
 
 # Introduction to Quality Control, De-multiplexing, and Trimming of Illumina Data
 
@@ -59,7 +59,7 @@ Enter this directory (`cd fq`).
 
 Now let's makes symbolic links the full dataset: 
 ```
-ln -s /home/ben/2024_BIO722/2022_pygmaeus/fq/*fq.gz .
+ln -s /home/ben/2026_BIO720/2022_pygmaeus/fq/*fq.gz .
 ```
 
 Let's see how many lines one of the files is:
