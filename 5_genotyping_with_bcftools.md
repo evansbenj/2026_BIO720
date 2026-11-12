@@ -26,7 +26,7 @@ This information is then piped to the `bcftools call` command, which applies a p
 This takes a while to run so please only do this using `screen`. In the meantime, we can check out some files that I made earlier. Please make a directory called `vcf_files` and enter this directory. Now please make a symbolic link to this file like this:
 
 ```
-ln -s /home/ben/2024_BIO722/2022_pygmaeus/vcfs_mapped_to_XLv10_concatscaf/* .
+ln -s /home/ben/2026_BIO720/2022_pygmaeus/vcfs_mapped_to_XLv10_concatscaf/* .
 ```
 
 And now check out this file like this:
