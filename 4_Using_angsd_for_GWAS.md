@@ -8,11 +8,11 @@
 
 This software can use bam files as input. So let's make symbolic links to lots of bam files that I made earlier. Please make sure you are in your `bam_files` directory and type this:
 ```
-ln -s /home/ben/2024_BIO722/2022_pygmaeus/bams_mapped_to_XLv10_concatscaf_no_readgroups/* .
+ln -s /home/ben/2026_BIO720/2022_pygmaeus/bams_mapped_to_XLv10_concatscaf_no_readgroups/* .
 ```
 We also need two more things. The first one is just a list of bam files. You can use the one I made:
 ```
-ln -s /home/ben/2024_BIO722/2022_pygmaeus/angsd/bam.filelist .
+ln -s /home/ben/2026_BIO720/2022_pygmaeus/angsd/bam.filelist .
 ```
 
 
