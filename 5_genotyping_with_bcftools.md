@@ -19,7 +19,7 @@ bcftools mpileup -f ../Reference_Genome/XENLA_10.1_genome.fa.gz pyg_mal_Z23368_T
 
 If you wanted to run this, you should do it using `screen` as we discussed earlier.
 
-The control above first uses the samtools mpileup command. You can check out what the options are by typing `bcftools mpileup`.  You will see that the -f command tells `bcftools` where the reference genome is. Then the sorted `.bam` files that you want to genotype are listed. `bcftools mpileup` will compute the likelihood of the data given each possible genotype for each position for each sample.  It does not call the variants though. 
+The control above first uses the bcftools mpileup command. You can check out what the options are by typing `bcftools mpileup`.  You will see that the -f command tells `bcftools` where the reference genome is. Then the sorted `.bam` files that you want to genotype are listed. `bcftools mpileup` will compute the likelihood of the data given each possible genotype for each position for each sample.  It does not call the variants though. 
 
 This information is then piped to the `bcftools call` command, which applies a prior probability to each genotype for each position across all individuals and does the genotype calling. The flags tell `bcftools` to skip indels, output a compressed file, and include genotype qualities in the output. 
 
