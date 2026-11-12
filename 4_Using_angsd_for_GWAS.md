@@ -29,7 +29,7 @@ angsd -yBin bin_sex.ybin -doAsso 1 -GL 1 -out out_additive_F1 -doMajorMinor 1 -d
 
 This also takes too long to run during class, so let's look at an output file I made earlier:
 ```
-ln -s /home/ben/2024_BIO722/2022_pygmaeus/angsd/pygm_out_additive_F1.lrt0.gz .
+ln -s /home/ben/2026_BIO720/2022_pygmaeus/angsd/pygm_out_additive_F1.lrt0.gz .
 zmore pygm_out_additive_F1.lrt0.gz 
 ```
 Using this file as input, I made the fancy manhattan plot below. Can you tell where the sex chromosome is?
