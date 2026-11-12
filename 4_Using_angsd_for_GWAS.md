@@ -19,7 +19,7 @@ ln -s /home/ben/2026_BIO720/2022_pygmaeus/angsd/bam.filelist .
 The second is a phenotype file that tells the software what the phenotype is for each sample: `bin_sex.ybin`; In this case there are two phenotypes: male 0, or female 1.
 
 ```
-ln -s /home/ben/2024_BIO722/2022_pygmaeus/angsd/bin_sex.ybin .
+ln -s /home/ben/2026_BIO720/2022_pygmaeus/angsd/bin_sex.ybin .
 ```
 
 Now we can execute angsd (in a screen) like this:
